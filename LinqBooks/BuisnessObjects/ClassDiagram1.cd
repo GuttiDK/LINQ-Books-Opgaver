@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LinqBooks.BuisnessObjects.Author">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>BuisnessObjects\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqBooks.BuisnessObjects.Book">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKgAEAAAQAAAEAECMAAAAAAAQBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuisnessObjects\Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Publisher" />
+      <Property Name="Subject" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Authors" />
+      <Property Name="Reviews" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="LinqBooks.BuisnessObjects.Publisher">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuisnessObjects\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqBooks.BuisnessObjects.Review">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAIAA=</HashCode>
+      <FileName>BuisnessObjects\Review.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LinqBooks.BuisnessObjects.Subject">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuisnessObjects\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqBooks.BuisnessObjects.User">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuisnessObjects\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
